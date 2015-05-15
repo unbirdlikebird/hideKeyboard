@@ -21,6 +21,7 @@
 		37B79E2E1B05883B00465F8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B79E101B05883B00465F8A /* UIKit.framework */; };
 		37B79E361B05883B00465F8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37B79E341B05883B00465F8A /* InfoPlist.strings */; };
 		37B79E381B05883B00465F8A /* _5052015_keyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B79E371B05883B00465F8A /* _5052015_keyboardTests.m */; };
+		37B79E431B058B1400465F8A /* KeyboardMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B79E421B058B1400465F8A /* KeyboardMonitor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		37B79E331B05883B00465F8A /* 15052015@keyboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "15052015@keyboardTests-Info.plist"; sourceTree = "<group>"; };
 		37B79E351B05883B00465F8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		37B79E371B05883B00465F8A /* _5052015_keyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5052015_keyboardTests.m; sourceTree = "<group>"; };
+		37B79E411B058B1400465F8A /* KeyboardMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardMonitor.h; sourceTree = "<group>"; };
+		37B79E421B058B1400465F8A /* KeyboardMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardMonitor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +115,9 @@
 		37B79E121B05883B00465F8A /* 15052015@keyboard */ = {
 			isa = PBXGroup;
 			children = (
-				37B79E1B1B05883B00465F8A /* AppDelegate.h */,
-				37B79E1C1B05883B00465F8A /* AppDelegate.m */,
 				37B79E1E1B05883B00465F8A /* Main.storyboard */,
+				37B79E411B058B1400465F8A /* KeyboardMonitor.h */,
+				37B79E421B058B1400465F8A /* KeyboardMonitor.m */,
 				37B79E211B05883B00465F8A /* ViewController.h */,
 				37B79E221B05883B00465F8A /* ViewController.m */,
 				37B79E241B05883B00465F8A /* Images.xcassets */,
@@ -126,6 +129,8 @@
 		37B79E131B05883B00465F8A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				37B79E1B1B05883B00465F8A /* AppDelegate.h */,
+				37B79E1C1B05883B00465F8A /* AppDelegate.m */,
 				37B79E141B05883B00465F8A /* 15052015@keyboard-Info.plist */,
 				37B79E151B05883B00465F8A /* InfoPlist.strings */,
 				37B79E181B05883B00465F8A /* main.m */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37B79E231B05883B00465F8A /* ViewController.m in Sources */,
+				37B79E431B058B1400465F8A /* KeyboardMonitor.m in Sources */,
 				37B79E1D1B05883B00465F8A /* AppDelegate.m in Sources */,
 				37B79E191B05883B00465F8A /* main.m in Sources */,
 			);
